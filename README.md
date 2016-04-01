@@ -1,4 +1,4 @@
-Automatically updates whenever The Guardian adds new data to [The Counted](https://theguardian.com/thecounted). Pulls from a JSON files powering their interactive:
+Automatically updates whenever The Guardian adds new data to [The Counted](https://theguardian.com/thecounted). Pulls from a JSON file powering their interactive:
 
 > [https://interactive.guim.co.uk/2015/the-counted/v/1459369783864/files/skeleton.json](https://interactive.guim.co.uk/2015/the-counted/v/1459369783864/files/skeleton.json)
 
