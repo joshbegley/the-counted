@@ -12,7 +12,7 @@ def fetch_url(url)
   return response.body
 end
 
-js_url = 'http://interactive.guim.co.uk/2015/the-counted/_list/boot.js'
+js_url = 'https://interactive.guim.co.uk/2015/the-counted/_list/boot.js'
 js = fetch_url(js_url)
 json_url_prefix = js.match(/https?:\/\/interactive\.guim\.co\.uk\/2015\/the-counted\/v\/\d+\//) or abort "Could not extract URL from #{js_url}"
 puts `curl -O "#{json_url_prefix}files/skeleton.json"`
